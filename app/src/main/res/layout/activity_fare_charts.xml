@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".FareChartsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fare_charts_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fare_charts_description"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="24dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city_chandigarh"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout style="@style/SummaryRow">
+                    <TextView style="@style/SummaryLabel" android:text="@string/auto_fare_label"/>
+                    <TextView android:id="@+id/chandigarh_auto_fare" style="@style/SummaryValue" android:text="₹ 20.00 base, ₹ 10.00/km"/>
+                </LinearLayout>
+                <LinearLayout style="@style/SummaryRow">
+                    <TextView style="@style/SummaryLabel" android:text="@string/taxi_fare_label"/>
+                    <TextView android:id="@+id/chandigarh_taxi_fare" style="@style/SummaryValue" android:text="₹ 50.00 base, ₹ 15.00/km"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city_delhi"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout style="@style/SummaryRow">
+                    <TextView style="@style/SummaryLabel" android:text="@string/auto_fare_label"/>
+                    <TextView android:id="@+id/delhi_auto_fare" style="@style/SummaryValue" android:text="₹ 25.00 base, ₹ 9.50/km"/>
+                </LinearLayout>
+                <LinearLayout style="@style/SummaryRow">
+                    <TextView style="@style/SummaryLabel" android:text="@string/taxi_fare_label"/>
+                    <TextView android:id="@+id/delhi_taxi_fare" style="@style/SummaryValue" android:text="₹ 40.00 base, ₹ 14.00/km"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

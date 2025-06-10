@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">यात्रामीटर</string>
+    <string name="tagline_welcome">हर यात्रा का सही किराया</string>
+    <string name="start_ride_button_text">राइड शुरू करें</string>
+    <string name="welcome_tip">"टिप: राइड शुरू करने से पहले अपना किराया तय करें! हर बार सटीक किराया।"</string>
+    <string name="change_language_button_text">भाषा बदलें</string>
+
+    <string name="fare_setup_title">किराये का विवरण सेट करें</string>
+    <string name="transport_mode_prompt">परिवहन मोड चुनें</string>
+    <string name="base_fare_hint">बेस किराया (₹)</string>
+    <string name="per_km_rate_hint">प्रति किमी दर (₹)</string>
+    <string name="per_minute_rate_hint">प्रति मिनट दर (₹)</string>
+    <string name="waiting_charge_hint">प्रतीक्षा शुल्क दर (₹/मिनट)</string>
+    <string name="enable_peak_multiplier_text">नाइट/पीक-टाइम गुणक सक्षम करें</string>
+    <string name="multiplier_value_hint">गुणक मान (उदाहरण: 1.5 के लिए 1.5x)</string>
+    <string name="start_tracking_button_text">राइड ट्रैक करना शुरू करें</string>
+    <string name="fare_validation_error">कृपया कम से कम एक किराया घटक दर्ज करें।</string>
+    <string name="multiplier_zero_error">गुणक शून्य नहीं हो सकता।</string>
+    <string-array name="transport_modes">
+        <item>ऑटो</item>
+        <item>टैक्सी</item>
+        <item>बाइक</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string name="fare_summary_title">राइड सारांश</string>
+    <string name="total_fare_label">कुल किराया</string>
+    <string name="fare_breakdown_label">किराये का विवरण</string>
+    <string name="base_fare_label">बेस किराया</string>
+    <string name="distance_charge_label">दूरी शुल्क</string>
+    <string name="time_charge_label">समय शुल्क</string>
+    <string name="waiting_charge_label">प्रतीक्षा शुल्क</string>
+    <string name="multiplier_adjustment_label">गुणक / समायोजन</string>
+    <string name="ride_stats_label">राइड के आँकड़े</string>
+    <string name="mode_label">मोड</string>
+    <string name="distance_covered_label">तय की गई दूरी</string>
+    <string name="total_duration_label">कुल अवधि</string>
+    <string name="waiting_time_label">प्रतीक्षा समय</string>
+    <string name="ride_date_time_label">राइड की तारीख और समय</string>
+    <string name="save_to_history_button_text">इतिहास में सहेजें</string>
+    <string name="share_ride_button_text">राइड विवरण साझा करें</string>
+
+    <string name="history_title">राइड इतिहास</string>
+    <string name="history_description">आपकी पिछली राइड का सारांश</string>
+    <string name="empty_history_message">अभी तक कोई पिछली राइड नहीं है। यहां देखने के लिए एक नई राइड शुरू करें!</string>
+    <string name="view_history_button_text">इतिहास देखें</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="default_fare_presets_title">डिफ़ॉल्ट किराया प्रीसेट</string>
+    <string name="peak_time_multiplier_value_label">डिफ़ॉल्ट गुणक मान</string>
+    <string name="save_default_fare_button_text">डिफ़ॉल्ट किराया सहेजें</string>
+
+    <string name="unit_preferences_title">इकाई प्राथमिकताएँ</string>
+    <string name="unit_km">किलोमीटर (किमी)</string>
+    <string name="unit_mi">मील (मील)</string>
+
+    <string name="theme_selection_title">थीम चयन</string>
+    <string name="enable_dark_theme">डार्क थीम सक्षम करें</string>
+
+    <string name="fare_lock_pin_title">किराया लॉक पिन</string>
+    <string name="enable_fare_lock_pin">किराया लॉक पिन सक्षम करें</string>
+    <string name="enter_new_pin">नया पिन दर्ज करें</string>
+    <string name="confirm_pin">पिन की पुष्टि करें</string>
+    <string name="save_pin_button_text">पिन सहेजें</string>
+
+    <string name="reset_all_settings_button_text">सभी सेटिंग्स रीसेट करें</string>
+    <string name="view_fare_charts_button_text">किराया चार्ट देखें</string>
+
+    <string name="default_fare_saved_toast">डिफ़ॉल्ट किराया सेटिंग्स सहेजी गई!</string>
+    <string name="pin_saved_toast">पिन सफलतापूर्वक सहेजा गया!</string>
+    <string name="settings_reset_toast">सभी सेटिंग्स डिफ़ॉल्ट पर रीसेट की गईं!</string>
+
+    <string name="fare_charts_title">सार्वजनिक किराया दरें</string>
+    <string name="fare_charts_description">विभिन्न शहरों के लिए आधिकारिक सार्वजनिक परिवहन किराया दरों का संदर्भ लें।</string>
+    <string name="city_chandigarh">चंडीगढ़</string>
+    <string name="city_delhi">दिल्ली</string>
+    <string name="auto_fare_label">ऑटो किराया</string>
+    <string name="taxi_fare_label">टैक्सी किराया</string>
+
+    <string name="select_language_title">भाषा चुनें</string>
+    <string name="language_english">English (अंग्रेज़ी)</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_changed_toast">भाषा बदल गई। कृपया ऐप को पुनरारंभ करें।</string>
+    <string name="language_not_changed_toast">भाषा नहीं बदली।</string>
+
+    <string name="enter_pin">पिन दर्ज करें</string>
+    <string name="incorrect_pin">गलत पिन</string>
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+
+    <string name="ride_start_point_title">राइड प्रारंभ बिंदु</string>
+    <string name="ride_end_point_title">राइड समाप्ति बिंदु</string>
+
+</resources>

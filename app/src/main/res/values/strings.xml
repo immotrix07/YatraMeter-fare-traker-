@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YatraMeter</string>
+    <string name="tagline_welcome">Har Yatra Ka Sahi Kiraya</string>
+    <string name="start_ride_button_text">Start Ride</string>
+    <string name="welcome_tip">"Tip: Set your fare before you ride! Accurate fares, every time."</string>
+    <string name="change_language_button_text">Change Language</string>
+
+    <string name="fare_setup_title">Set Your Fare Details</string>
+    <string name="transport_mode_prompt">Select Transport Mode</string>
+    <string name="base_fare_hint">Base Fare (₹)</string>
+    <string name="per_km_rate_hint">Per km Rate (₹)</string>
+    <string name="per_minute_rate_hint">Per Minute Rate (₹)</string>
+    <string name="waiting_charge_hint">Waiting Charge Rate (₹/min)</string>
+    <string name="enable_peak_multiplier_text">Enable Night/Peak-time Multiplier</string>
+    <string name="multiplier_value_hint">Multiplier Value (e.g., 1.5 for 1.5x)</string>
+    <string name="start_tracking_button_text">Start Tracking Ride</string>
+    <string name="fare_validation_error">Please enter at least one fare component.</string>
+    <string name="multiplier_zero_error">Multiplier cannot be zero.</string>
+    <string-array name="transport_modes">
+        <item>Auto</item>
+        <item>Taxi</item>
+        <item>Bike</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="fare_summary_title">Ride Summary</string>
+    <string name="total_fare_label">Total Fare</string>
+    <string name="fare_breakdown_label">Fare Breakdown</string>
+    <string name="base_fare_label">Base Fare</string>
+    <string name="distance_charge_label">Distance Charge</string>
+    <string name="time_charge_label">Time Charge</string>
+    <string name="waiting_charge_label">Waiting Charge</string>
+    <string name="multiplier_adjustment_label">Multiplier / Adjustment</string>
+    <string name="ride_stats_label">Ride Statistics</string>
+    <string name="mode_label">Mode</string>
+    <string name="distance_covered_label">Distance Covered</string>
+    <string name="total_duration_label">Total Duration</string>
+    <string name="waiting_time_label">Waiting Time</string>
+    <string name="ride_date_time_label">Ride Date &amp; Time</string>
+    <string name="save_to_history_button_text">Save to History</string>
+    <string name="share_ride_button_text">Share Ride Details</string>
+
+    <string name="history_title">Ride History</string>
+    <string name="history_description">Your past ride summaries</string>
+    <string name="empty_history_message">No past rides yet. Start a new ride to see it here!</string>
+    <string name="view_history_button_text">View History</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="default_fare_presets_title">Default Fare Presets</string>
+    <string name="peak_time_multiplier_value_label">Default Multiplier Value</string>
+    <string name="save_default_fare_button_text">Save Default Fare</string>
+
+    <string name="unit_preferences_title">Unit Preferences</string>
+    <string name="unit_km">Kilometers (km)</string>
+    <string name="unit_mi">Miles (mi)</string>
+
+    <string name="theme_selection_title">Theme Selection</string>
+    <string name="enable_dark_theme">Enable Dark Theme</string>
+
+    <string name="fare_lock_pin_title">Fare Lock PIN</string>
+    <string name="enable_fare_lock_pin">Enable Fare Lock PIN</string>
+    <string name="enter_new_pin">Enter New PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="save_pin_button_text">Save PIN</string>
+
+    <string name="reset_all_settings_button_text">Reset All Settings</string>
+    <string name="view_fare_charts_button_text">View Fare Charts</string>
+
+    <string name="default_fare_saved_toast">Default fare settings saved!</string>
+    <string name="pin_saved_toast">PIN saved successfully!</string>
+    <string name="settings_reset_toast">All settings reset to default!</string>
+
+    <string name="fare_charts_title">Public Fare Rates</string>
+    <string name="fare_charts_description">Reference official public transport fare rates for various cities.</string>
+    <string name="city_chandigarh">Chandigarh</string>
+    <string name="city_delhi">Delhi</string>
+    <string name="auto_fare_label">Auto Fare</string>
+    <string name="taxi_fare_label">Taxi Fare</string>
+
+    <string name="select_language_title">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी (Hindi)</string>
+    <string name="language_changed_toast">Language changed. Please restart the app.</string>
+    <string name="language_not_changed_toast">Language not changed.</string>
+
+    <string name="enter_pin">Enter PIN</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="ride_start_point_title">Ride Start</string>
+    <string name="ride_end_point_title">Ride End</string>
+
+</resources>
