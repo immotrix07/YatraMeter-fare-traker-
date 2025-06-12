@@ -24,14 +24,6 @@ This app allows users to set their own fare parameters (base fare, per-kilometer
 
 
 
-![Welcome Screen]([https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/welcome_screen.png](https://github.com/immotrix07/YatraMeter-fare-traker-/blob/master/screenshots/additional_settings.jpg)
-![Set Fare Details Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/set_fare_details_screen.png)
-![Live Ride Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/live_ride_screen.png)
-![Ride Finish Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/ridde_finish_screen.png)
-![Ride History Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/ride_history_screen.png)
-![Settings Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/settings_screen.png)
-![Additional Settings](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/additional_settings.png)
-![Select Language Dialog](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/select_language.png)
 
 
 ## 🛠️ Technologies Used
@@ -88,7 +80,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ## 📞 Contact
 
