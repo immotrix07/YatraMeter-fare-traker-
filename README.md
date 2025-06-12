@@ -22,9 +22,9 @@ This app allows users to set their own fare parameters (base fare, per-kilometer
 
 ## 📸 Screenshots
 
-*(Ensure your screenshots are in a folder named `screenshots` in the root of your GitHub repository)*
 
-![Welcome Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/welcome_screen.png)
+
+![Welcome Screen]([https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/welcome_screen.png](https://github.com/immotrix07/YatraMeter-fare-traker-/blob/master/screenshots/additional_settings.jpg)
 ![Set Fare Details Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/set_fare_details_screen.png)
 ![Live Ride Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/live_ride_screen.png)
 ![Ride Finish Screen](https://raw.githubusercontent.com/immotrix07/YatraMeter-fare-traker-/main/screenshots/ridde_finish_screen.png)
