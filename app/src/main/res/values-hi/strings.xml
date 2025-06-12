@@ -92,4 +92,10 @@
     <string name="ride_start_point_title">राइड प्रारंभ बिंदु</string>
     <string name="ride_end_point_title">राइड समाप्ति बिंदु</string>
 
+    <string name="export_pdf_button_text">पीडीएफ के रूप में निर्यात करें</string>
+    <string name="pdf_export_success">पीडीएफ सफलतापूर्वक सहेजा गया!</string>
+    <string name="pdf_export_failed">पीडीएफ निर्यात करने में विफल: %s</string>
+    <string name="pdf_file_name_format">यात्रामीटर_राइडसारांश_%s.pdf</string>
+    <string name="pdf_ride_summary_document_title">यात्रामीटर राइड सारांश</string>
+
 </resources>

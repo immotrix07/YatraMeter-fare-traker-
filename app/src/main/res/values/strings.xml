@@ -92,4 +92,10 @@
     <string name="ride_start_point_title">Ride Start</string>
     <string name="ride_end_point_title">Ride End</string>
 
+    <string name="export_pdf_button_text">Export as PDF</string>
+    <string name="pdf_export_success">PDF saved successfully!</string>
+    <string name="pdf_export_failed">Failed to export PDF: %s</string>
+    <string name="pdf_file_name_format">YatraMeter_RideSummary_%s.pdf</string>
+    <string name="pdf_ride_summary_document_title">YatraMeter Ride Summary</string>
+
 </resources>

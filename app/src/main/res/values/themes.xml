@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.YatraMeter" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">#3F51B5</item> <item name="colorPrimaryVariant">#303F9F</item> <item name="colorOnPrimary">@color/white</item> <item name="colorSecondary">#4CAF50</item> <item name="colorSecondaryVariant">#388E3C</item> <item name="colorOnSecondary">@color/white</item> <item name="colorSurface">#F5F5F5</item> <item name="colorOnSurface">#212121</item> <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryVariant">#303F9F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#4CAF50</item>
+        <item name="colorSecondaryVariant">#388E3C</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">#F5F5F5</item>
+        <item name="colorOnSurface">#212121</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
-    <style name="Theme.YatraMeter.NoActionBar">
+    <style name="Theme.YatraMeter.NoActionBar" parent="Theme.YatraMeter">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
     <style name="Theme.YatraMeter.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.YatraMeter.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="SummaryRow" parent="android:Widget">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

@@ -24,12 +24,15 @@
             android:value="YOUR_API_KEY_HERE" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="true"> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false"> </activity>
 
         <activity
             android:name=".FareSetupActivity"
