@@ -92,6 +92,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Your Name -  devxsachin
-linked in -  https://rb.gy/gph4v8
+ Name -  devxsachin
+linked-in -  https://rb.gy/gph4v8
 Project Link: [https://github.com/immotrix07/YatraMeter-fare-traker-](https://github.com/immotrix07/YatraMeter-fare-traker-)
