@@ -20,7 +20,6 @@ This app allows users to set their own fare parameters (base fare, per-kilometer
 -   **Public Fare Charts:** Access and compare official public transport fare rates for various cities.
 -   **Offline Functionality:** Core fare calculation works without an internet connection.
 
-## 📸 Screenshots
 
 
 
@@ -41,12 +40,6 @@ This app allows users to set their own fare parameters (base fare, per-kilometer
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-
--   Android Studio (Bumblebee 2021.1.1 or newer recommended)
--   Android SDK Platform 31 (or higher, as per `compileSdk`)
--   A physical Android device or emulator with Google Play Services.
--   **Google Maps API Key:** You will need to obtain your own API key and enable "Maps SDK for Android" in Google Cloud Console. Follow the instructions [here](https://developers.google.com/maps/documentation/android-sdk/start).
 
 ### Installation
 
